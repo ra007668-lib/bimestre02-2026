@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootsstrap.css">
+    <title>margens e prenchimento..</title>
+</head>
+<body>
+    <div class="container mb-4">
+        <h3>Diferença</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="br-primary-subtle border">
+                    Texto colado na borda. Sem espaço interno.
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div>
+                    Espaço interno confortavel em todas direçoes ( top , button, start, end)
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container mb-4">
+        <h3>2. uso por Eixos e lados especificos</h3>
+        <button class="btn btn-primary px-5 py-2 mb-3">
+            botao largo (.px-5 em X, .py-2 em Y)
+        </button>
+        <div calss="border boder-danger bg-danger-subtle pt-5 pb-2 ps-3 pe-5">
+            <strong> Espaçamento assimetrico;</strong><br> Muito espaço no topo(<code> p-5</code>code>), pouco embaixo(<code>pb-2</code>)</strong>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h3> 3. margens para Distanciamento dos Elementos</h3>
+        <div class="bg-light p-3 border">
+            <div class="bg-warning-subtle border border-warning p-3 mb-4">
+                <strong> bloco 1</strong> Possui <code>.mb-4</code>(margin bottom 4). Empurra o elemento abaixo
+            </div>
+            <div calss="bg-info-subtle border border-info p-3">
+                <strong> Bloco 2:</strong> Fica Posicionado logo abaixo do espaço criado pela margem do bloco 1.
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h3>4. centralizaçaoa horizontal com .mx-auto</h3>
+        <div class="bg-secondary-subtle border border-secondary p-3" style="max-width: 400px;">
+            <code>.mx-auto</code>define <code>margin-left: auto</code>e <code>margin-right: auto</code>, centralizando o elemento horizontalmente dentro do container
+        </div>
+    </div>
+</body>
+</html>
